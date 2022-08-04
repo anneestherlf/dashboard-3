@@ -1,0 +1,76 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+em {
+  color: red;
+  font-weight: bolder;
+}
+
+i {
+  cursor: pointer;
+}
+
+.my-custom-scrollbar {
+  position: relative;
+  height: 240px;
+  overflow: auto;
+}
+.table-wrapper-scroll-y {
+  display: block;
+}
+
+.display-4 {
+  font-weight: 500;
+  color: #fa6400;
+}
+.btn-btn-success-btn-sm {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+}
+
+.btn-btn-success-btn-sm:hover,
+.btn-btn-success-btn-sm:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.btn-btn-success-btn-sm:hover {
+  transform: translateY(-1px);
+}
+
+.btn-btn-success-btn-sm:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+img {
+  height: 50px;
+}
+
+.headerr {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 1%;
+}
