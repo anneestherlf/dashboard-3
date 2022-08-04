@@ -13,15 +13,15 @@ import { PieChartComponent } from './npx-chart/pie-chart/pie-chart.component';
     AppComponent,
     HomeComponent,
     PieChartComponent,
-    BarsChartComponent
+    BarsChartComponent,
   ],
   imports: [
     BrowserModule,
     NgApexchartsModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

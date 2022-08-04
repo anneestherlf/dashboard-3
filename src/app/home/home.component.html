@@ -1,16 +1,24 @@
-<div style="background: #ffffff !important;" class="jumbotron">
+<div style="background: #f9fafa" class="jumbotron">
+  <div class="headerr">
+    <h1 class="display-4">Cadastro de Produtos</h1>
+    <a
+      href="https://www.google.com/maps/place/ETE+-+Vit%C3%B3ria+de+Santo+Ant%C3%A3o/@-8.1195719,-35.3041311,16z/data=!4m19!1m13!4m12!1m4!2m2!1d-35.2984761!2d-8.114518!4e1!1m6!1m2!1s0x7aa54a04de8a1f5:0x2ffb7c25e318a9bc!2sete+vitoria+de+santo+antao!2m2!1d-35.3002768!2d-8.1248284!3m4!1s0x7aa54a04de8a1f5:0x2ffb7c25e318a9bc!8m2!3d-8.1248284!4d-35.3002768"
+      ><img
+        src="https://seeklogo.com/images/E/ete-logo-C00FB6F54C-seeklogo.com.png"
+        alt="ETE José Joaquim da Silva Filho"
+    /></a>
+    <a href="https://www.pitang.com/"
+      ><img
+        src="https://www.pitang.com/image/layout_set_logo?img_id=64051&t=1648734708816"
+        alt="Pitang Agile IT"
+    /></a>
+    <a href="http://www.facepe.br/"
+      ><img
+        src="https://portais.univasf.edu.br/ppgea/facepe.png/@@images/55b86db9-b4c0-4575-9eb4-34138c9d17ee.png"
+        alt="FACEPE"
+    /></a>
+  </div>
   <form #carteiraForm="ngForm" (ngSubmit)="salvarValor()">
-    <div class="row justify-content-center">
-      <div class="col-sm-9">
-        <div class="headerr">
-        <h1 class="display-4">Cadastro Produto</h1>
-        <img src="https://seeklogo.com/images/E/ete-logo-C00FB6F54C-seeklogo.com.png" alt="ETE José Joaquim da Silva Filho">
-        <img src="https://www.pitang.com/image/layout_set_logo?img_id=64051&t=1648734708816" alt="Pitang Agile IT">
-        <img src="https://portais.univasf.edu.br/ppgea/facepe.png/@@images/55b86db9-b4c0-4575-9eb4-34138c9d17ee.png" alt="FACEPE">
-      </div>
-        <p class="lead">Um simples auxiliar pra manter a grana no bolso! 💲</p>
-      </div>
-    </div>
     <div class="row justify-content-center">
       <div class="col-lg-4">
         <div class="form-group">
@@ -154,19 +162,34 @@
       </div>
     </div>
   </form>
+  <div class="charts">
+    <div class="row justify-content-center">
+      <div class="col-lg-5">
+        <app-bars-chart></app-bars-chart>
+      </div>
 
-  <div class="row justify-content-center">
-    <div class="col-lg-5">
-      <app-bars-chart></app-bars-chart>
+      <div class="col-lg-2 mr-3">
+        <app-pie-chart></app-pie-chart>
+      </div>
+      <div class="col-lg-2"></div>
     </div>
-
-    <div class="col-lg-2 mr-3">
-      <app-pie-chart></app-pie-chart>
-    </div>
-    <div class="col-lg-2"></div>
   </div>
-
   <footer>
-
+    <a
+      href="https://www.google.com/maps/place/ETE+-+Vit%C3%B3ria+de+Santo+Ant%C3%A3o/@-8.1195719,-35.3041311,16z/data=!4m19!1m13!4m12!1m4!2m2!1d-35.2984761!2d-8.114518!4e1!1m6!1m2!1s0x7aa54a04de8a1f5:0x2ffb7c25e318a9bc!2sete+vitoria+de+santo+antao!2m2!1d-35.3002768!2d-8.1248284!3m4!1s0x7aa54a04de8a1f5:0x2ffb7c25e318a9bc!8m2!3d-8.1248284!4d-35.3002768"
+      ><img
+        src="https://seeklogo.com/images/E/ete-logo-C00FB6F54C-seeklogo.com.png"
+        alt="ETE José Joaquim da Silva Filho"
+    /></a>
+    <a href="https://www.pitang.com/"
+      ><img
+        src="https://www.pitang.com/image/layout_set_logo?img_id=64051&t=1648734708816"
+        alt="Pitang Agile IT"
+    /></a>
+    <a href="http://www.facepe.br/"
+      ><img
+        src="https://portais.univasf.edu.br/ppgea/facepe.png/@@images/55b86db9-b4c0-4575-9eb4-34138c9d17ee.png"
+        alt="FACEPE"
+    /></a>
   </footer>
 </div>

@@ -5,13 +5,7 @@ import { PieChartComponent } from './pie-chart/pie-chart.component';
 import { BarsChartComponent } from './bars-chart/bars-chart.component';
 import { BrowserModule } from '@angular/platform-browser';
 
-
-
 @NgModule({
-  imports: [    
-    BrowserModule,
-    CommonModule,
-    NgApexchartsModule,
-  ]
+  imports: [BrowserModule, CommonModule, NgApexchartsModule],
 })
-export class NpxChartModule { }
+export class NpxChartModule {}
