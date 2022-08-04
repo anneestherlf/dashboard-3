@@ -8,9 +8,30 @@ i {
   cursor: pointer;
 }
 
+table{
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 7px;
+}
+
+thead th {
+  background-color: #165cb7;
+  border: solid 1px #DDEEEE;
+  color: #ffffff;
+  padding: 10px;
+  text-align: left;
+}
+
+tbody td {
+  border: solid 1px #DDEEEE;
+  color: #333;
+  padding: 10px;
+}
+
 .my-custom-scrollbar {
   position: relative;
-  height: 240px;
+  height: 500px;
   overflow: auto;
 }
 .table-wrapper-scroll-y {
